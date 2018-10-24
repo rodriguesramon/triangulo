@@ -6,13 +6,10 @@ namespace triangulo
     {
         static void Main(string[] args)
         {
-            int ladoA;
-            int ladoB;
-            int ladoC;
 
             string texto;
             //comentando
-
+            /*
             Console.WriteLine("Digite um valor para o ladoA ");
             ladoA = Int32.Parse(Console.ReadLine()) ;
             texto = "ladoA: " + ladoA;
@@ -25,8 +22,12 @@ namespace triangulo
             ladoC = Int32.Parse(Console.ReadLine());
             texto += "\nladoC: " + ladoC;
 
-            Console.WriteLine(texto);
 
+            Console.WriteLine(texto);
+            */
+            
+
+            
         }
     }
 }
