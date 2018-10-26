@@ -7,27 +7,18 @@ namespace triangulo
         static void Main(string[] args)
         {
 
-            string texto;
-            //comentando
-            /*
-            Console.WriteLine("Digite um valor para o ladoA ");
-            ladoA = Int32.Parse(Console.ReadLine()) ;
-            texto = "ladoA: " + ladoA;
+            Triangulo triangulo = new Triangulo();
+            //Triangulo t2 = new Triangulo();
 
-            Console.WriteLine("Digite um valor para o ladoB ");
-            ladoB = Int32.Parse(Console.ReadLine());
-            texto += "\nladoB: " + ladoB ;
-
-            Console.WriteLine("Digite um valor para o ladoC ");
-            ladoC = Int32.Parse(Console.ReadLine());
-            texto += "\nladoC: " + ladoC;
+            Console.WriteLine("Informe o lado A: ");
+           
+            triangulo.defineValorLadoA(Int32.Parse(Console.ReadLine()));
 
 
-            Console.WriteLine(texto);
-            */
-            
+            Console.WriteLine("LadoA: " + triangulo.pegaValorLadoA() + "\n");
 
-            
+
+
         }
     }
 }
